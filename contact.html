@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — kur0m@</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="header-container">
+    <div class="logo-wrapper">
+      <a href="index.html">
+        <!-- BISA DIGANTI: Nama file logo kamu -->
+        <img src="1000434271.jpg" alt="kur0m@" class="logo-img" onerror="this.src='logo.png';">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">NEW</a></li>
+        <li><a href="products.html">ALL</a></li>
+        <li><a href="profile.html">PROFILE</a></li>
+        <li><a href="contact.html" class="active">CONTACT</a></li>
+        <li><a href="order.html">ORDER FORM</a></li>
+<li><a href="source.html">SOURCE</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div style="max-width: 780px; margin: 0 auto;">
+    <h1 class="section-title">Contact Studio</h1>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px;">
+      <div class="card">
+        <h2 style="font-size: 16px; color: #2B4C6F; margin-bottom: 18px; font-weight: 700;">Customer Care</h2>
+        
+        <div style="margin-bottom: 15px;">
+          <div style="font-size: 11px; text-transform: uppercase; color: #5B7A9C; font-weight: 700;">Email Support</div>
+          <div style="font-size: 13px; color: #2B4C6F; font-weight: 600;">info@kur0ma-studio.com</div>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+          <div style="font-size: 11px; text-transform: uppercase; color: #5B7A9C; font-weight: 700;">Operating Hours</div>
+          <div style="font-size: 13px; color: #2B4C6F; font-weight: 600;">Mon – Fri: 09:00 – 17:00</div>
+        </div>
+
+        <div>
+          <div style="font-size: 11px; text-transform: uppercase; color: #5B7A9C; font-weight: 700;">Instagram</div>
+          <div style="font-size: 13px; color: #2B4C6F; font-weight: 600;">@kur0ma_official</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <form action="#" method="get" onsubmit="alert('Message sent successfully.'); return false;">
+          <div class="form-group">
+            <label for="c-name">Full Name</label>
+            <input type="text" id="c-name" class="form-control" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="c-email">Email Address</label>
+            <input type="email" id="c-email" class="form-control" placeholder="your.email@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="c-message">Message</label>
+            <textarea id="c-message" class="form-control" rows="4" placeholder="Enter your query..." required></textarea>
+          </div>
+          <button type="submit" class="btn" style="width: 100%;">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 kur0m@ studio. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
